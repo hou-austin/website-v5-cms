@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "navigation",
+    "icon": "fighter-jet"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
