@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_slices_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "fighter-jet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

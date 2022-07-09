@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_slices_looking_glass_with_pictures",
+  "info": {
+    "displayName": "Looking Glass with Picture"
+  },
+  "options": {},
+  "attributes": {
+    "lookingGlass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.looking-glass"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "right",
+      "required": true
+    }
+  }
+}
