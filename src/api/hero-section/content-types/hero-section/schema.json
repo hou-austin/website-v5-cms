@@ -21,15 +21,15 @@
     "slices": {
       "type": "dynamiczone",
       "components": [
-        "slices.looking-glass-with-picture",
         "slices.looking-glass",
+        "slices.looking-glass-with-picture",
         "slices.multi-image-display"
       ]
     },
     "holoImage": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.holo-image"
+      "component": "shared.image"
     }
   }
 }

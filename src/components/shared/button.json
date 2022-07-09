@@ -14,13 +14,16 @@
     "color": {
       "type": "enumeration",
       "enum": [
-        "white",
-        "black",
-        "red",
-        "sky",
-        "purple",
-        "green"
-      ]
+        "whiteS400O10",
+        "blackS400O10",
+        "skyS400O10",
+        "redS400O10",
+        "purpleS400O10",
+        "greenS400O10",
+        "autoS400O10"
+      ],
+      "default": "autoS400O10",
+      "required": true
     },
     "icon": {
       "type": "enumeration",
@@ -32,10 +35,10 @@
     "size": {
       "type": "enumeration",
       "enum": [
-        "medium",
-        "large"
+        "sm",
+        "md"
       ],
-      "default": "medium",
+      "default": "sm",
       "required": true
     },
     "link": {
