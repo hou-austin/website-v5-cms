@@ -16,6 +16,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::hero-section.hero-section"
+    },
+    "test": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.looking-glass-with-picture",
+        "slices.looking-glass",
+        "slices.multi-image-display"
+      ]
     }
   }
 }
