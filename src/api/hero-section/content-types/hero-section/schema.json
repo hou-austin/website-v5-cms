@@ -23,7 +23,8 @@
       "components": [
         "slices.looking-glass",
         "slices.looking-glass-with-picture",
-        "slices.multi-image-display"
+        "slices.multi-image-display",
+        "shared.button"
       ]
     },
     "holoImage": {

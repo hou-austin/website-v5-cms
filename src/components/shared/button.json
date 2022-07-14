@@ -45,6 +45,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.link"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "center"
+      ]
     }
   }
 }

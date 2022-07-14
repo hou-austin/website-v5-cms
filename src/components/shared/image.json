@@ -27,6 +27,11 @@
     },
     "alt": {
       "type": "string"
+    },
+    "priority": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
