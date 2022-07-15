@@ -12,6 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "collectionName": {
+      "type": "string",
+      "required": true
+    },
     "hero": {
       "type": "component",
       "repeatable": false,
@@ -21,10 +25,10 @@
     "slices": {
       "type": "dynamiczone",
       "components": [
+        "shared.button",
         "slices.looking-glass",
         "slices.looking-glass-with-picture",
-        "slices.multi-image-display",
-        "shared.button"
+        "slices.multi-image-display"
       ]
     },
     "holoImage": {

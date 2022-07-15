@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slices",
+  "info": {
+    "singularName": "slice",
+    "pluralName": "slices",
+    "displayName": "Slice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slices": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.button",
+        "slices.hero",
+        "slices.looking-glass",
+        "slices.looking-glass-with-picture",
+        "slices.multi-image-display"
+      ]
+    },
+    "collectionName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
