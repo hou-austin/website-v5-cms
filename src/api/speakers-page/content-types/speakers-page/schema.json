@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "speakers_pages",
+  "info": {
+    "singularName": "speakers-page",
+    "pluralName": "speakers-pages",
+    "displayName": "Speakers Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hero-section.hero-section"
+    }
+  }
+}
